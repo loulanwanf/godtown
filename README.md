@@ -1,5 +1,8 @@
 # Godtown 创世小镇
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23357974.svg)](https://doi.org/10.5281/zenodo.23357974)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **When the laws of physics are the only fitness function** — an LLM multi-agent open-ended evolution (OEE) world simulator.
 
 ![A living afternoon in Godtown: residents out in the fields, names and speech bubbles emerging from the simulation](docs/screenshot-town.png)
@@ -10,7 +13,7 @@ Current version **v4.9.0 "Perception and Standing"**.
 
 A pixel-art town of AI-driven residents. Below the waterline sits a hard-coded physics substrate (time / space / bodies / matter / conservation). Everything above it — behaviour, society, culture, institutions — is **fully open**: no developer-defined types, containers, or trigger whitelists. Culture evolves through a single pipeline, the **idea pool** (free-text notions that form, spread, mutate, are selected, crystallise into standing rules, and are forgotten). Inheritance across generations runs through a **neurocore** that survives its host. v4.9.0 adds a **belief layer** (a subjective world model per resident — beliefs may be wrong or stale) and a **distributed standing field** (social weight computed from witnessed history, never a global table).
 
-- Preprint (EN + 中文): [docs/创世小镇-预印本-v4.9.0-中英双语.md](docs/创世小镇-预印本-v4.9.0-中英双语.md)
+- Preprint (EN + 中文): [docs/创世小镇-预印本-v4.9.0-中英双语.md](docs/创世小镇-预印本-v4.9.0-中英双语.md) — archived at Zenodo, [doi:10.5281/zenodo.23357974](https://doi.org/10.5281/zenodo.23357974)
 - Architecture: [docs/godtown-architecture.svg](docs/godtown-architecture.svg)
 - Design log: [改造决议录.md](改造决议录.md) · Plan: [docs/计划书.md](docs/计划书.md) · Design docs: [docs/design/](docs/design/)
 
