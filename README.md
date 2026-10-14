@@ -12,7 +12,7 @@ A pixel-art town of AI-driven residents. Below the waterline sits a hard-coded p
 
 - Preprint (EN + 中文): [docs/创世小镇-预印本-v4.9.0-中英双语.md](docs/创世小镇-预印本-v4.9.0-中英双语.md)
 - Architecture: [docs/godtown-architecture.svg](docs/godtown-architecture.svg)
-- Design log: [改造决议录.md](改造决议录.md) · Plan: [docs/计划书.md](docs/计划书.md)
+- Design log: [改造决议录.md](改造决议录.md) · Plan: [docs/计划书.md](docs/计划书.md) · Design docs: [docs/design/](docs/design/)
 
 ## What I can do for you
 

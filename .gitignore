@@ -3,5 +3,5 @@ dist/
 dist*/
 release/
 %TEMP%/
-.trae/tmp/
+.trae/
 *.log
