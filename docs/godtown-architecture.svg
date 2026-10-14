@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="660" viewBox="0 0 980 660" font-family="Segoe UI, PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="660" fill="#ffffff"/>
+
+  <text x="490" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#111827">创世小镇 / Godtown — 系统架构 System Architecture</text>
+  <text x="490" y="52" text-anchor="middle" font-size="12.5" fill="#6b7280">物理基底硬编码，基底之上全开放　·　Physical substrate hardcoded, everything above fully open</text>
+
+  <!-- ================= 元层 Meta (open) ================= -->
+  <rect x="150" y="78" width="550" height="92" rx="10" fill="#f1e6f5" stroke="#7a3d8f" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="166" y="100" font-size="14" font-weight="700" fill="#7a3d8f">元层 Meta</text>
+  <text x="166" y="117" font-size="11" fill="#7a3d8f">开放 open</text>
+  <g font-size="12.5" fill="#3f2a52">
+    <rect x="170" y="126" width="160" height="32" rx="7" fill="#ffffff" stroke="#7a3d8f" stroke-width="1.2"/>
+    <text x="250" y="146" text-anchor="middle">什么算"缺口" gap</text>
+    <rect x="345" y="126" width="160" height="32" rx="7" fill="#ffffff" stroke="#7a3d8f" stroke-width="1.2"/>
+    <text x="425" y="146" text-anchor="middle">什么算"新颖" novelty</text>
+    <rect x="520" y="126" width="160" height="32" rx="7" fill="#ffffff" stroke="#7a3d8f" stroke-width="1.2"/>
+    <text x="600" y="146" text-anchor="middle">什么"值得固化" worth fixing</text>
+  </g>
+
+  <!-- arrow content -> meta -->
+  <line x1="425" y1="190" x2="425" y2="162" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="425,156 419,168 431,168" fill="#9ca3af"/>
+  <text x="436" y="182" font-size="11" fill="#6b7280">内容演化 content evolution</text>
+
+  <!-- ================= 内容层 Content (open) ================= -->
+  <rect x="150" y="196" width="550" height="146" rx="10" fill="#e2f0e6" stroke="#1e6b3a" stroke-width="2"/>
+  <text x="166" y="218" font-size="14" font-weight="700" fill="#1e6b3a">内容层 Content</text>
+  <text x="166" y="235" font-size="11" fill="#1e6b3a">全开放 fully open</text>
+  <g font-size="12.5" fill="#14361f">
+    <rect x="170" y="244" width="160" height="32" rx="7" fill="#ffffff" stroke="#1e6b3a" stroke-width="1.2"/>
+    <text x="250" y="264" text-anchor="middle">观念池 idea pool</text>
+    <rect x="345" y="244" width="160" height="32" rx="7" fill="#ffffff" stroke="#1e6b3a" stroke-width="1.2"/>
+    <text x="425" y="264" text-anchor="middle">语言 language</text>
+    <rect x="520" y="244" width="160" height="32" rx="7" fill="#ffffff" stroke="#1e6b3a" stroke-width="1.2"/>
+    <text x="600" y="264" text-anchor="middle">习俗 customs</text>
+    <rect x="170" y="294" width="160" height="32" rx="7" fill="#ffffff" stroke="#1e6b3a" stroke-width="1.2"/>
+    <text x="250" y="314" text-anchor="middle">配方 recipes</text>
+    <rect x="345" y="294" width="160" height="32" rx="7" fill="#ffffff" stroke="#1e6b3a" stroke-width="1.2"/>
+    <text x="425" y="314" text-anchor="middle">建筑 buildings</text>
+    <rect x="520" y="294" width="160" height="32" rx="7" fill="#ffffff" stroke="#1e6b3a" stroke-width="1.2"/>
+    <text x="600" y="314" text-anchor="middle">社会角色 roles</text>
+  </g>
+
+  <!-- arrow physical -> content -->
+  <line x1="425" y1="366" x2="425" y2="338" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="425,332 419,344 431,344" fill="#9ca3af"/>
+  <text x="436" y="358" font-size="11" fill="#6b7280">约束门控 constraint gating</text>
+
+  <!-- ================= 物理层 Physical (hardcoded) ================= -->
+  <rect x="150" y="372" width="550" height="140" rx="10" fill="#dbe9f6" stroke="#1f4e79" stroke-width="3"/>
+  <text x="166" y="394" font-size="14" font-weight="700" fill="#1f4e79">物理层 Physical</text>
+  <text x="166" y="411" font-size="11" fill="#1f4e79">硬编码 hardcoded</text>
+  <g font-size="12.5" fill="#12293f">
+    <rect x="170" y="420" width="160" height="34" rx="7" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2"/>
+    <text x="250" y="441" text-anchor="middle">守恒 Conservation</text>
+    <rect x="345" y="420" width="160" height="34" rx="7" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2"/>
+    <text x="425" y="441" text-anchor="middle">因果 Causality</text>
+    <rect x="520" y="420" width="160" height="34" rx="7" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2"/>
+    <text x="600" y="441" text-anchor="middle">时间 Time</text>
+    <rect x="170" y="464" width="160" height="34" rx="7" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2"/>
+    <text x="250" y="485" text-anchor="middle">空间 Space</text>
+    <rect x="345" y="464" width="160" height="34" rx="7" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2"/>
+    <text x="425" y="485" text-anchor="middle">代价 Cost</text>
+    <rect x="520" y="464" width="160" height="34" rx="7" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2"/>
+    <text x="600" y="485" text-anchor="middle">有限 Finitude</text>
+  </g>
+
+  <!-- ================= 右侧通道 Channels ================= -->
+  <rect x="730" y="78" width="226" height="434" rx="10" fill="#fdf6e3" stroke="#8a6d3b" stroke-width="2"/>
+  <text x="843" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#8a6d3b">涌现通道 Channels</text>
+  <text x="843" y="116" text-anchor="middle" font-size="10.5" fill="#8a6d3b">高层结构由此长出</text>
+
+  <rect x="742" y="128" width="202" height="72" rx="8" fill="#ffffff" stroke="#8a6d3b" stroke-width="1.2"/>
+  <text x="843" y="152" text-anchor="middle" font-size="12.5" font-weight="700" fill="#3d2e15">居民 Resident</text>
+  <text x="843" y="170" text-anchor="middle" font-size="10.5" fill="#6b5a3b">需求 needs · 记忆 memory</text>
+  <text x="843" y="186" text-anchor="middle" font-size="10.5" fill="#6b5a3b">信念 beliefs</text>
+
+  <rect x="742" y="222" width="202" height="72" rx="8" fill="#ffffff" stroke="#8a6d3b" stroke-width="1.2"/>
+  <text x="843" y="246" text-anchor="middle" font-size="12.5" font-weight="700" fill="#3d2e15">神经芯 Neurocore</text>
+  <text x="843" y="264" text-anchor="middle" font-size="10.5" fill="#6b5a3b">跨世代权重 weights</text>
+  <text x="843" y="280" text-anchor="middle" font-size="10.5" fill="#6b5a3b">宿主死后游荡 drift after death</text>
+
+  <rect x="742" y="316" width="202" height="72" rx="8" fill="#ffffff" stroke="#8a6d3b" stroke-width="1.2"/>
+  <text x="843" y="340" text-anchor="middle" font-size="12.5" font-weight="700" fill="#3d2e15">名望场 Standing field</text>
+  <text x="843" y="358" text-anchor="middle" font-size="10.5" fill="#6b5a3b">分布式 distributed</text>
+  <text x="843" y="374" text-anchor="middle" font-size="10.5" fill="#6b5a3b">从见证算出，无全局排行</text>
+
+  <text x="843" y="416" text-anchor="middle" font-size="10.5" fill="#6b5a3b">这三条通道是唯一的入口——</text>
+  <text x="843" y="432" text-anchor="middle" font-size="10.5" fill="#6b5a3b">没有开发者写死的文化类型</text>
+
+  <!-- arrow channels -> content -->
+  <line x1="728" y1="286" x2="704" y2="286" stroke="#8a6d3b" stroke-width="2.4"/>
+  <polygon points="700,286 712,280 712,292" fill="#8a6d3b"/>
+  <text x="716" y="272" text-anchor="middle" font-size="10.5" fill="#8a6d3b">念头/信念 传播</text>
+
+  <!-- ================= 底部注释 ================= -->
+  <rect x="150" y="536" width="806" height="104" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.4"/>
+  <text x="168" y="562" font-size="12.5" fill="#374151">演化唯一管道 = 观念池（自由文本，无类型；产生 1.2%/日 · 传播 8% · 变异 15% · 结晶 = 30% 成年人口且适应度 ≥ 0.45）。</text>
+  <text x="168" y="584" font-size="12.5" fill="#374151">The sole evolutionary pipeline is the idea pool (free text, untyped).</text>
+  <text x="168" y="610" font-size="12.5" fill="#374151">D34 铁律：同 seed → 同世界（主骰流确定性；Math.random / Date.now 清出模拟链；离镇者走独立骰流 wrng）。

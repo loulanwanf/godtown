@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src *; script-src 'self'" />
+  <title>创世小镇</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 顶栏 -->
+  <header id="topbar">
+    <div class="brand">创世小镇</div>
+    <div id="tbClock" class="tb-clock">第1年 春 1日 06:30</div>
+    <div id="tbWeather" class="tb-chip">晴朗</div>
+    <div id="tbStock" class="tb-stock"></div>
+    <div class="tb-flex"></div>
+    <div class="tb-speed">
+      <button id="spd0" class="tbtn" title="暂停">‖</button>
+      <button id="spd1" class="tbtn on" title="正常速度">1x</button>
+      <button id="spd2" class="tbtn" title="两倍速">2x</button>
+      <button id="spd4" class="tbtn" title="四倍速">4x</button>
+      <button id="btnNextDay" class="tbtn" title="跳到次日清晨">次日</button>
+    </div>
+    <button id="btnSettings" class="tbtn">设置</button>
+    <button id="btnSave" class="tbtn" title="导出当前世界快照，用于跨设备迁移">导出</button>
+  </header>
+
+  <!-- 主区域 -->
+  <main id="main">
+    <div id="canvasWrap">
+      <canvas id="gameCanvas"></canvas>
+      <canvas id="miniMap" width="152" height="152"></canvas>
+      <div id="eventBanner" class="event-banner hidden"></div>
+    </div>
+
+    <!-- 右侧观察面板（v4.6.0：玩家是观察者，不是神） -->
+    <aside id="godPanel">
+      <nav id="gpTabs">
+        <button class="gp-tab on" data-tab="souls">众生</button>
+        <button class="gp-tab" data-tab="history">镇史</button>
+        <button class="gp-tab" data-tab="evolve">演化</button>
+      </nav>
+      <div id="gpBody"></div>
+    </aside>
+  </main>
+
+  <!-- 底部日志 -->
+  <footer id="logBar">
+    <div id="logTitle" class="log-title">小镇见闻</div>
+    <div id="logBox"></div>
+  </footer>
+
+  <!-- 设置弹窗（锁定：仅取消/保存可关） -->
+  <div id="settingsModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">设置</div>
+      <div class="modal-body" id="settingsBody"></div>
+      <div class="modal-foot">
+        <button id="settingsCancel" class="btn">取消</button>
+        <button id="settingsSave" class="btn primary">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/boot.js"></script>
+</body>
+</html>

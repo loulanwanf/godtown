@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist*/
+release/
+%TEMP%/
+.trae/tmp/
+*.log

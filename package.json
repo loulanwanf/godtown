@@ -1,0 +1,54 @@
+{
+  "name": "godtown",
+  "productName": "创世小镇",
+  "version": "4.9.0",
+  "description": "像素风小镇生活模拟：玩家扮演创世神，居民全部由AI驱动",
+  "main": "main.cjs",
+  "type": "module",
+  "author": "godtown",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "selftest": "node selftest.js",
+    "dist": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.godtown.game",
+    "productName": "创世小镇",
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "src/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "portable": {
+      "artifactName": "创世小镇-${version}-便携版.exe"
+    },
+    "nsis": {
+      "artifactName": "创世小镇-${version}-安装版-x64.exe",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false
+    },
+    "directories": {}
+  }
+}
